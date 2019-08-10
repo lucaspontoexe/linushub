@@ -12,6 +12,6 @@ function instanceLinus(x, y) {
     newNode.draggable = false;
     newNode.style.left = `${x}px`;
     newNode.style.top = `${y}px`;
-
+    
     document.body.appendChild(newNode);
 }

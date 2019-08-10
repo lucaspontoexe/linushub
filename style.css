@@ -6,15 +6,15 @@ body {
 
 @keyframes pop {
     0% {
-        transform: scale(0);
+        transform: scale(0) translate(-50%, -50%);
     }
 
     60% {
-        transform: scale(1.1);
+        transform: scale(1.1) translate(-50%, -50%);
     }
 
     80% {
-        transform: scale(1);
+        transform: scale(1) translate(-50%, -50%);
         /* transform: rotate(2deg); */
     }
 }
@@ -23,6 +23,8 @@ body {
     position: absolute;
     width: 250px;
     border-radius: 10px;
+    transform-origin: 0% 0%;
+    transform: translate(-50%, -50%);
     animation: pop 0.5s ease-in-out;
     /* transform: rotate(2deg); */
 }
@@ -32,5 +34,5 @@ body {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
 }
