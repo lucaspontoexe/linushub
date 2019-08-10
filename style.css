@@ -18,6 +18,7 @@
 body {
     background-color: rgb(24, 24, 24);
     overflow: hidden;
+    -moz-user-select: none;
     user-select: none;
 }
 
