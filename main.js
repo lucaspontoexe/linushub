@@ -1,9 +1,6 @@
-
 document.addEventListener('click', (event) => {
     let { clientX, clientY } = event;
-    
     instanceLinus(clientX, clientY);
-    console.log(clientX);
 });
 
 function instanceLinus(x, y) {
