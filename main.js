@@ -8,8 +8,9 @@ document.addEventListener('click', (event) => {
 
 function instanceLinus(x, y) {
     let newNode = document.createElement('img');
-    //TODO: Select random pic from an array
-    newNode.src = "pics/image0.jpg";
+    //TODO: Improve random number generator
+    let random = Math.floor(Math.random()*7);
+    newNode.src = `pics/image${random}.jpg`;
     newNode.className = "linus";
     newNode.draggable = false;
     newNode.style.left = `${x}px`;
