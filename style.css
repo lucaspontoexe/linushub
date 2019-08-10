@@ -54,3 +54,28 @@ footer {
 a {
     color: #a0a0a0;
 }
+
+@media only screen and (max-width: 600px) {
+    .linus {
+        width: 100px;
+    }
+
+    .message {
+        width: 80%;
+    }
+
+    footer {
+        font-size: 8pt;
+        bottom: 0.5em;
+    }
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+
+    footer {
+        text-decoration: none;
+    }
+}
