@@ -1,5 +1,7 @@
 // Initialize fallback array
-let randompics = ['pics/image0.jpg', 'pics/image1.jpg', 'pics/image2.jpg', 'pics/image3.jpg', 'pics/image4.jpg'];
+let randompics = ["https://media.discordapp.net/attachments/609890487595434008/609895709524623390/image0.jpg?width=319&height=426",
+    "https://media.discordapp.net/attachments/609890487595434008/609895672006574080/image1.jpg?width=319&height=426",
+];
 
 
 // Using the good ol' XHR request
