@@ -3,8 +3,7 @@
     "short_name": "LinusHub",
     "description": "A website full of Linus pictures.",
     "lang": "en",
-    "start_url": "/linushub",
-    "scope": "/linushub",
+    "start_url": "/",
     "display": "standalone",
     "theme_color": "#181818",
     "icons": [
